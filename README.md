@@ -1,25 +1,20 @@
-<!-- You have some errors, warnings, or alerts. If you are using reckless mode, turn it off to see inline alerts.
-* ERRORs: 0
-* WARNINGs: 0
-* ALERTS: 4 -->
-
 Milestone 1 Submission
 
-**<span style="text-decoration:underline;">Team Name:</span>**
+**Team Name:**
 
 EmpowerNUS
 
-**<span style="text-decoration:underline;">Proposed Level of Achievement:</span>**
+**Proposed Level of Achievement:**
 
 Artemis, (Current status: Apollo 11)
 
-**<span style="text-decoration:underline;">Motivation:</span>**
+**Motivation:**
 
 India is a rich country of culture and heritage. However, a blatant problem in the Indian society is the high crime rates. As of 2022, the Indian capital, Delhi, faced approximately 10,000 reported criminal cases such as molestation, burglary, assault, murders, and many more horrific incidences. Additionally, these are only the reported cases, what about the unreported ones? This evident societal issue got us thinking how can we help? 
 
 Consequently, It is our delight to be able to present to you, EmpowerNUS: a one-stop safety shop for our users which we hope will help reduce the criminal cases around India. With EmpowerNUS, we are motivated to bring a sense of safety to our communities, prevent further victim stories, and spread teachings about personal safety.
 
-**<span style="text-decoration:underline;">Vision:</span>**
+**Vision:**
 
 At EmpowerNUS, our vision is to create a safer society in India where individuals feel empowered and secure. We are committed to addressing the prevalent issue of high crime rates by leveraging technology, education, and community support.
 
@@ -33,7 +28,7 @@ Through anonymous reporting options, we strive to encourage victims of abuse or 
 
 Overall, EmpowerNUS is dedicated to reducing crime rates, empowering individuals, and promoting a safer and more secure society in India. We believe that by combining technology, education, and community engagement, we can make a significant impact in creating a society where personal safety is prioritized and criminal incidents are minimized.
 
-**<span style="text-decoration:underline;">User Stories</span>**
+**User Stories**
 
 The user stories below highlight the diverse perspectives and needs of users, authorities, contacts, law enforcement agencies, and individuals seeking information and support, all of which EmpowerNUS aims to address through its features and functionalities.
 
@@ -57,23 +52,23 @@ The user stories below highlight the diverse perspectives and needs of users, au
 
 10. As a user, I want to have the ability to record audio and video to provide evidence in case of an incident. EmpowerNUS's audio/video recording feature allows me to capture important details that can assist authorities in their investigations.
 
-**<span style="text-decoration:underline;">Scope of Project</span>**
+**Scope of Project**
 
 EmpowerNUS is a mobile application supported for IOS and Android devices that can be downloaded on a user’s phone. The scope of the EmpowerNUS project encompasses the development and implementation of this comprehensive mobile application aimed at enhancing personal safety, reducing crime rates, and fostering a secure environment in India. The project will involve the creation of a user-friendly app with a wide range of features and functionalities designed to empower individuals, educate users on personal safety, and facilitate quick response during emergencies. The primary focus of the project will be on addressing the high crime rates prevalent in the Indian society, with a particular emphasis on the prevention and reporting of criminal incidents.
 
 The sections below further introduce the EmpowerNUS features for the mobile application, organised by the following headers:
 
-**<span style="text-decoration:underline;">[Proposed]</span> - ** Minimum Viable Product (MVP) features of the application to be made by splashdown.
+**[Proposed]**** - ** Minimum Viable Product (MVP) features of the application to be made by splashdown.
 
-**<span style="text-decoration:underline;">[Current Progress]</span> - **Implemented Features by Milestone 1
+**[Current Progress]**** - **Implemented Features by Milestone 1
 
-**<span style="text-decoration:underline;">[Further Progress]</span> ** - Description on status of remaining features to be completed in the other milestones.
+**[Further Progress]**** ** - Description on status of remaining features to be completed in the other milestones.
 
 **[Additional Features] **- Features to be implemented after MVP is complete to improve the product.
 
-**<span style="text-decoration:underline;">Technology Stack</span>**
+**Technology Stack**
 
-<span style="text-decoration:underline;">Front-end Mobile Development:</span>
+Front-end Mobile Development:
 
 - Flutter 3.10.2: A cross-platform UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop using a single codebase.
 
@@ -81,7 +76,7 @@ The sections below further introduce the EmpowerNUS features for the mobile appl
 
 - Flutter packages: Various packages available in the Flutter ecosystem for adding specific functionality to the app, such as location services, camera integration, and authentication.
 
-<span style="text-decoration:underline;">Back-end Mobile Development and Database:</span>
+Back-end Mobile Development and Database:
 
 - Firebase: A comprehensive development platform provided by Google that includes various services for building and managing mobile and web applications.
 
@@ -97,7 +92,7 @@ The sections below further introduce the EmpowerNUS features for the mobile appl
 
 - Flask-SocketIO: A python library used for integrating and bidirectional communication of flutter and python code.
 
-<span style="text-decoration:underline;">Smart Contracts:</span>
+Smart Contracts:
 
 - Solidity 0.8.20: A programming language used for writing smart contracts on blockchain platforms like Ethereum.
 
@@ -105,7 +100,7 @@ The sections below further introduce the EmpowerNUS features for the mobile appl
 
 - Web3.js: A JavaScript library for interacting with Ethereum and deploying smart contracts.
 
-<span style="text-decoration:underline;">Additional Tools and Services:</span>
+Additional Tools and Services:
 
 - GitHub: A version control system for managing code and collaborating with team members.
 
@@ -115,9 +110,9 @@ The sections below further introduce the EmpowerNUS features for the mobile appl
 
 - Firebase Analytics: A tool for gathering app usage and analytics data to gain insights about user behavior.
 
-**<span style="text-decoration:underline;">Features - EmpowerNUS</span>**
+**Features - EmpowerNUS**
 
-<span style="text-decoration:underline;">1. Feature: User Authentication Page</span>
+1. Feature: User Authentication Page
 
 **[Proposed]**
 
@@ -131,21 +126,19 @@ Authentication Feature (Login/Signup)
 
 As of milestone 1, we have successfully implemented the login/signup functionality. Users can create new accounts by providing their email address, and they can securely log in using their credentials. This authentication process helps us establish a secure connection with our users and we ensure that their personal information is protected in our database.
 
-<span style="text-decoration:underline;">Front-end UI/UX components of the page</span>
+Front-end UI/UX components of the page
 
+![image alt text](image_0.png)
 
-![alt_text](images/image1.png "image_tooltip")
-
-
-<span style="text-decoration:underline;">Back-end Firebase Authentication ‘Users’ node</span>
+Back-end Firebase Authentication ‘Users’ node
 
 [Further Progress]
 
 Authentication Feature (Login/Signup)
 
-We further work towards integrating necessary permissions for location, camera, and voice sharing to enhance the app's functionality and user experience. We also aim to code the “Forgot password” section that will allow the users to reset their password through their emails. Additionally, to create a faster login/sign up process, we are trying to integrate the users existing social media accounts such as Google or Facebook as an account authentication process. Furthermore, we intend on adding a voice recognition phrase that will allow our users to immediately log back into the account as to prevent unnecessary delays in an emergency
+We further work towards integrating necessary permissions for location, camera, and voice sharing to enhance the app's functionality and user experience. We also aim to code the "Forgot password" section that will allow the users to reset their password through their emails. Additionally, to create a faster login/sign up process, we are trying to integrate the users existing social media accounts such as Google or Facebook as an account authentication process. Furthermore, we intend on adding a voice recognition phrase that will allow our users to immediately log back into the account as to prevent unnecessary delays in an emergency
 
-<span style="text-decoration:underline;">User Authentication Diagram</span>
+User Authentication Diagram
 
 [Additional Features]
 
@@ -153,7 +146,7 @@ Authentication Feature (Login/Signup)
 
 Once the minimum viable product (MVP) is complete, we will focus on additional features to further improve the user experience and app security. This may include implementing biometric authentication methods such as fingerprint or facial recognition, providing users with a convenient and secure way to access their accounts. By continuously refining and expanding the authentication feature, we aim to create a seamless and secure login/signup experience for our users, ensuring their trust and confidence in our app.
 
-<span style="text-decoration:underline;">2. Feature: Panic Alert Button</span>
+2. Feature: Panic Alert Button
 
 **[Proposed]**
 
@@ -181,7 +174,7 @@ Panic Alert Button Feature
 
 Once the minimum viable product (MVP) is complete, we will explore additional features to improve the Panic Alert Button experience. This may include integration with wearable devices or smart home systems to provide seamless access to the panic feature. Additionally, we will explore the possibility of incorporating our AI algorithm to analyze the user's voice or behavior for enhanced emergency response. By continuously refining and expanding the Panic Alert Button feature, we aim to provide our users with a comforting and effective tool to seek help in critical situations.
 
-<span style="text-decoration:underline;">3. Blockchain based Anonymous Reporting System</span>
+3. Blockchain based Anonymous Reporting System
 
 [Proposed]
 
@@ -207,7 +200,7 @@ Blockchain-based Anonymous Reporting System
 
 In the future, we envision expanding the capabilities of the Blockchain-based Anonymous Reporting System. This includes implementing features such as real-time notifications for updates on reported incidents, collaboration with law enforcement agencies to facilitate investigations, and integration with support services to provide resources and assistance to individuals who have experienced abuse or harassment. By leveraging the power of blockchain technology, we aim to create a reliable and secure platform that empowers individuals to report incidents anonymously, contributing to a safer and more inclusive community.
 
-<span style="text-decoration:underline;">4. Evidence Gathering AI Algorithm</span>
+4. Evidence Gathering AI Algorithm
 
 [Proposed]
 
@@ -227,11 +220,9 @@ Evidence Gathering AI Algorithm
 
 Moving forward, our team will focus on implementing and refining the Evidence Gathering AI Algorithm. We will integrate== computer vision and audio processing techniques to capture and analyze visual and auditory data when the alert option is activated. This will involve leveraging AI algorithms to identify potential attackers, extract relevant information, and enhance the quality of captured evidence.
 
+![image alt text](image_1.png)
 
-![alt_text](images/image2.png "image_tooltip")
-
-
-				 <span style="text-decoration:underline;">MobileNet V2 model for object detection</span>
+				 MobileNet V2 model for object detection
 
 To ensure the effectiveness of the algorithm, we will conduct rigorous testing and optimization to improve accuracy and reliability. Additionally, we will work on developing a user-friendly interface that allows users to easily access and manage the evidence captured by the algorithm.
 
@@ -243,7 +234,7 @@ In the future, we envision expanding the capabilities of the Evidence Gathering 
 
 By leveraging the power of AI and advanced algorithms, our goal is to provide users with a comprehensive evidence gathering tool that can assist them in documenting incidents, strengthening their case, and seeking justice.
 
-<span style="text-decoration:underline;">5. Educational Resources</span>
+5. Educational Resources
 
 [Proposed]
 
@@ -269,7 +260,7 @@ Educational Resources
 
 In addition to the core educational materials, we plan to incorporate community-driven content creation features. This will allow users to contribute their own articles, videos, or personal experiences, fostering a sense of collaboration and shared knowledge within the user community. Furthermore, we aim to integrate social sharing capabilities, enabling users to share educational resources with their friends, family, or social media networks. This will help spread awareness and promote a culture of safety beyond the app's user base. By providing comprehensive and accessible educational resources, our goal is to empower users with the necessary knowledge and skills to make informed decisions, minimize risks, and create a safer environment for themselves and their communities.
 
-<span style="text-decoration:underline;">6. Safety Network</span>
+6. Safety Network
 
 [Proposed]
 
@@ -289,8 +280,7 @@ This feature is not completed as of Milestone 1. Our team has been in the proces
 
 We will work towards creating a functional chatting and connecting with users section within our safety network features. Inside of the chats, we will allow features like real-time location sharing, group communication, and nearby panic buttons of connected users.
 
-
-                <span style="text-decoration:underline;">Mockup designs for the UI/UX of the Safety Network</span>
+Mockup designs for the UI/UX of the Safety Network
 
 [Additional Features]
 
@@ -298,7 +288,7 @@ We will work towards creating a functional chatting and connecting with users se
 
 In the future, we may integrate emergency service integration and explore partnerships with on-demand safety escorts or community-led safety initiatives. These additions will further strengthen the Safety Network and promote a safer environment for all users.
 
-<span style="text-decoration:underline;">7. Map Routing for Safest/Speediest Path</span>
+7. Map Routing for Safest/Speediest Path
 
 [Proposed]
 
@@ -318,11 +308,9 @@ Map Routing for Safest/Speediest Path
 
 In the current progress of our project, we are working on developing the map routing algorithm using graph traversal techniques like SSSP but adding checks at every interval on the suggested path to check for dangerous areas. If a dangerous area is found, the route is regenerated until a safer path is obtained. We are also working on the UI/UX of this page. The picture below depicts a potential mockup design:
 
+![image alt text](image_2.png)
 
-![alt_text](images/image3.png "image_tooltip")
-
-
-<span style="text-decoration:underline;">Mockup design for Map Routing feature</span>
+Mockup design for Map Routing feature
 
 The mockup was designed with the target on Singapore; however, due to data restrictions our project focus was switched to India.
 
@@ -332,266 +320,201 @@ Map Routing for Safest/Speediest Path
 
 As an additional feature, we may consider integrating real-time incident reporting functionality within the app. This would allow users to report and share information about incidents they encounter, contributing to the overall accuracy and relevance of the crime data used for routing. Furthermore, we may explore partnerships with local law enforcement agencies or community safety organizations to gather and integrate additional data sources, such as safety zones or recent crime prevention initiatives. 
 
-**<span style="text-decoration:underline;">Entity Relation Diagram - EmpowerNUS</span>**
+**Entity Relation Diagram - EmpowerNUS**
 
 The ER Diagram below shows how our firebase database will be structured. Each category represents a collection and how documents will be stored inside that collection in terms of the attributes. For instance, the ‘Users’ collection will contain JSON documents with attributes like the person’s Name, Email, Password, etc.
 
-**<span style="text-decoration:underline;">Architecture Diagram - EmpowerNUS</span>**
+**Architecture Diagram - EmpowerNUS**
 
-**<span style="text-decoration:underline;">Class Diagram - EmpowerNUS</span>**
+**Class Diagram - EmpowerNUS**
 
+![image alt text](image_3.png)
 
-![alt_text](images/image4.png "image_tooltip")
-
-
-**<span style="text-decoration:underline;">Project Log - EmpowerNUS</span>**
+**Project Log - EmpowerNUS**
 
 This project log documents the activities for the project with labelled dates of responsible personnel. The log was last updated on 29th May 2023.
 
-
 <table>
   <tr>
-   <td>M/S
-   </td>
-   <td>Date
-   </td>
-   <td>Activities
-   </td>
-   <td>Person In-charge
-   </td>
+    <td>M/S</td>
+    <td>Date</td>
+    <td>Activities</td>
+    <td>Person In-charge</td>
   </tr>
   <tr>
-   <td rowspan="24" >1
-   </td>
-   <td>1st May - PRESENT
-   </td>
-   <td>Initiated learning about Flutter, a cross-platform framework for building mobile applications.
-   </td>
-   <td>Yuv & Reet
-   </td>
+    <td>1</td>
+    <td>1st May - PRESENT</td>
+    <td>Initiated learning about Flutter, a cross-platform framework for building mobile applications.</td>
+    <td>Yuv & Reet</td>
   </tr>
   <tr>
-   <td>1st May - PRESENT
-   </td>
-   <td>Initiated learning about Python AI libraries like Tensorflow and OpenCV for Computer Vision
-   </td>
-   <td>Yuv & Reet
-   </td>
+    <td></td>
+    <td>1st May - PRESENT</td>
+    <td>Initiated learning about Python AI libraries like Tensorflow and OpenCV for Computer Vision</td>
+    <td>Yuv & Reet</td>
   </tr>
   <tr>
-   <td>2nd May
-   </td>
-   <td>Started research into fitting web3 frameworks for reporting system smart contracts
-   </td>
-   <td>Yuv & Reet
-   </td>
+    <td></td>
+    <td>2nd May</td>
+    <td>Started research into fitting web3 frameworks for reporting system smart contracts</td>
+    <td>Yuv & Reet</td>
   </tr>
   <tr>
-   <td>3rd May
-   </td>
-   <td>Began learning about Firebase, a platform that provides various backend services.
-   </td>
-   <td>Yuv & Reet
-   </td>
+    <td></td>
+    <td>3rd May</td>
+    <td>Began learning about Firebase, a platform that provides various backend services.</td>
+    <td>Yuv & Reet</td>
   </tr>
   <tr>
-   <td>3rd May 
-   </td>
-   <td>Concluded  on the Ethereum blockchain with Solidity as the programming language developed on Remix
-   </td>
-   <td>Yuv & Reet
-   </td>
+    <td></td>
+    <td>3rd May </td>
+    <td>Concluded  on the Ethereum blockchain with Solidity as the programming language developed on Remix</td>
+    <td>Yuv & Reet</td>
   </tr>
   <tr>
-   <td>3rd May
-   </td>
-   <td>Set up for the Solidity smart contract system 
-   </td>
-   <td>Yuv & Reet
-   </td>
+    <td></td>
+    <td>3rd May</td>
+    <td>Set up for the Solidity smart contract system </td>
+    <td>Yuv & Reet</td>
   </tr>
   <tr>
-   <td>3rd May - PRESENT
-   </td>
-   <td>Initiated learning Solidity and development of smart contracts
-   </td>
-   <td>Yuv & Reet
-   </td>
+    <td></td>
+    <td>3rd May - PRESENT</td>
+    <td>Initiated learning Solidity and development of smart contracts</td>
+    <td>Yuv & Reet</td>
   </tr>
   <tr>
-   <td>4th - 5th May
-   </td>
-   <td>Continued learning about Firebase.
-   </td>
-   <td>Yuv & Reet
-   </td>
+    <td></td>
+    <td>4th - 5th May</td>
+    <td>Continued learning about Firebase.</td>
+    <td>Yuv & Reet</td>
   </tr>
   <tr>
-   <td>6th - 7th May
-   </td>
-   <td>Explored how to integrate Flutter with Firebase for developing the crime prevention application.
-   </td>
-   <td>Yuv & Reet
-   </td>
+    <td></td>
+    <td>6th - 7th May</td>
+    <td>Explored how to integrate Flutter with Firebase for developing the crime prevention application.</td>
+    <td>Yuv & Reet</td>
   </tr>
   <tr>
-   <td>8th May
-   </td>
-   <td>Started mockup designs for the application’s UI/UX
-   </td>
-   <td>Yuv & Reet
-   </td>
+    <td></td>
+    <td>8th May</td>
+    <td>Started mockup designs for the application’s UI/UX</td>
+    <td>Yuv & Reet</td>
   </tr>
   <tr>
-   <td>9th May
-   </td>
-   <td>Sketched Diagrams for the application
-   </td>
-   <td>Yuv & Reet
-   </td>
+    <td></td>
+    <td>9th May</td>
+    <td>Sketched Diagrams for the application</td>
+    <td>Yuv & Reet</td>
   </tr>
   <tr>
-   <td>8th - 11th May
-   </td>
-   <td>Continued exploring integration of Flutter with Firebase.
-   </td>
-   <td>Reet
-   </td>
+    <td></td>
+    <td>8th - 11th May</td>
+    <td>Continued exploring integration of Flutter with Firebase.</td>
+    <td>Reet</td>
   </tr>
   <tr>
-   <td>12th May
-   </td>
-   <td>Compiled designs into the project poster
-   </td>
-   <td>Yuv
-   </td>
+    <td></td>
+    <td>12th May</td>
+    <td>Compiled designs into the project poster</td>
+    <td>Yuv</td>
   </tr>
   <tr>
-   <td>12th May
-   </td>
-   <td>Compiled produced designs and diagrams into the project video
-   </td>
-   <td>Reet
-   </td>
+    <td></td>
+    <td>12th May</td>
+    <td>Compiled produced designs and diagrams into the project video</td>
+    <td>Reet</td>
   </tr>
   <tr>
-   <td>12th - 15th May
-   </td>
-   <td>Consolidation of learnings on Flutter, Firebase, and integration.
-   </td>
-   <td>Reet
-   </td>
+    <td></td>
+    <td>12th - 15th May</td>
+    <td>Consolidation of learnings on Flutter, Firebase, and integration.</td>
+    <td>Reet</td>
   </tr>
   <tr>
-   <td>16th May
-   </td>
-   <td>Devoted efforts to developing the frontend of the application.
-   </td>
-   <td>Yuv
-   </td>
+    <td></td>
+    <td>16th May</td>
+    <td>Devoted efforts to developing the frontend of the application.</td>
+    <td>Yuv</td>
   </tr>
   <tr>
-   <td>17th May
-   </td>
-   <td>Created login frontend pages, ensuring a smooth user authentication process.
-   </td>
-   <td>Yuv
-   </td>
+    <td></td>
+    <td>17th May</td>
+    <td>Created login frontend pages, ensuring a smooth user authentication process.</td>
+    <td>Yuv</td>
   </tr>
   <tr>
-   <td>18th May
-   </td>
-   <td>Developed the homepage frontend, providing a user-friendly interface for accessing essential features.
-   </td>
-   <td>Yuv
-   </td>
+    <td></td>
+    <td>18th May</td>
+    <td>Developed the homepage frontend, providing a user-friendly interface for accessing essential features.</td>
+    <td>Yuv</td>
   </tr>
   <tr>
-   <td>19th May
-   </td>
-   <td>Developed the reporting page frontend.
-   </td>
-   <td>Yuv
-   </td>
+    <td></td>
+    <td>19th May</td>
+    <td>Developed the reporting page frontend.</td>
+    <td>Yuv</td>
   </tr>
   <tr>
-   <td>20th May
-   </td>
-   <td>Developed the basic education pages frontend.
-   </td>
-   <td>Yuv
-   </td>
+    <td></td>
+    <td>20th May</td>
+    <td>Developed the basic education pages frontend.</td>
+    <td>Yuv</td>
   </tr>
   <tr>
-   <td>21st - 22nd May
-   </td>
-   <td>Focused on designing intuitive and visually appealing UI elements.
-   </td>
-   <td>Yuv
-   </td>
+    <td></td>
+    <td>21st - 22nd May</td>
+    <td>Focused on designing intuitive and visually appealing UI elements.</td>
+    <td>Yuv</td>
   </tr>
   <tr>
-   <td>23rd - 24th May
-   </td>
-   <td>Integrated the frontend code with the backend code.
-   </td>
-   <td>Reet
-   </td>
+    <td></td>
+    <td>23rd - 24th May</td>
+    <td>Integrated the frontend code with the backend code.</td>
+    <td>Reet</td>
   </tr>
   <tr>
-   <td>25th - 26th May
-   </td>
-   <td>Assisted in linking the backend functionality with the frontend components, ensuring seamless communication between different parts of the application.
-   </td>
-   <td>Reet
-   </td>
+    <td></td>
+    <td>25th - 26th May</td>
+    <td>Assisted in linking the backend functionality with the frontend components, ensuring seamless communication between different parts of the application.</td>
+    <td>Reet</td>
   </tr>
   <tr>
-   <td>27th - 29th May
-   </td>
-   <td>Consolidation and improvement of the frontend features and establishing a strong foundation for further development milestones.
-   </td>
-   <td>Yuv & Reet
-   </td>
+    <td></td>
+    <td>27th - 29th May</td>
+    <td>Consolidation and improvement of the frontend features and establishing a strong foundation for further development milestones.</td>
+    <td>Yuv & Reet</td>
   </tr>
   <tr>
-   <td>
-   </td>
-   <td>29th May
-   </td>
-   <td>Completed Milestone 1 submission
-   </td>
-   <td>Yuv & Reet
-   </td>
+    <td></td>
+    <td>29th May</td>
+    <td>Completed Milestone 1 submission</td>
+    <td>Yuv & Reet</td>
   </tr>
 </table>
 
 
-**<span style="text-decoration:underline;">User Testing</span>**
+**User Testing**
 
+1. Clone this repository:
 
+git clone https://github.com/YourGitHubUsername/EmpowerNUS.git
 
-1. <span style="text-decoration:underline;">Clone this repository:</span>
+cd /path/to/EmpowerNUS
 
-    git clone https://github.com/YourGitHubUsername/EmpowerNUS.git
-
-
-    cd /path/to/EmpowerNUS
-
-2. <span style="text-decoration:underline;">Install dependencies:</span>
+2. Install dependencies:
 
 flutter pub get
 
+3. Checkout to the Login_Frontend Branch
 
+Git > Branches > Login_Frontend > Checkout
 
-3. <span style="text-decoration:underline;">Checkout to the Login_Frontend Branch</span>
+4. Run the application:
 
-    Git > Branches > Login_Frontend > Checkout
+flutter run
 
-4. <span style="text-decoration:underline;">Run the application:</span>
-
-    flutter run
-
-5. <span style="text-decoration:underline;">Checkout to the UI_Codes Branch Git > Branches > UI_Codes</span>
+5. Checkout to the UI_Codes Branch Git > Branches > UI_Codes
 
 Note: UI_Codes stores the classes for our home page, educational resources page, and Reporting system. Meanwhile, Login_Frontend holds the code for the setting up process of the app.
+
